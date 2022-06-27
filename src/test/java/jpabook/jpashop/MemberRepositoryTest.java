@@ -9,10 +9,12 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
+import jpabook.jpashop.domain.Member;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MemberRepositoryTest {
-	
+	/*
 	@Autowired
 	MemberRepository memberRepository;
 	
@@ -30,5 +32,6 @@ public class MemberRepositoryTest {
 		Assertions.assertThat(findMember.getUsername()).isEqualTo(member.getUsername());
 		
 	}
+	*/
 
 }
